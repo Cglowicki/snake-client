@@ -27,7 +27,7 @@ const handleUserInput = function(key) {
     connection.write('Move: right');
   }
   if (key === 'r') {
-    connection.write('that one\'s mine!');
+    connection.write('Say: that one\'s mine!');
   }
 };
 
