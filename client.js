@@ -10,7 +10,7 @@ const connect = function() {
 
   conn.on('connect', () => {
     console.log('Success!');
-    conn.write('Name: CRG');
+    conn.write('Fun Times');
   });
   
   conn.on('data', data => {
